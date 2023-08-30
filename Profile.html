@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Facebook Profile Page</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <nav>
@@ -18,7 +19,7 @@
             </div>
         </div>
         <div class="middle-nav">
-            <a href="#"><i class="fa-solid fa-house"></i></a>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
             <a href="#"><i class="fa-solid fa-computer"></i></a>
             <a href="#"><i class="fa-solid fa-shop"></i></a>
             <a href="#"><i class="fa-solid fa-user-group"></i></a>
@@ -28,9 +29,46 @@
             <a href="#"><i class="fa-solid fa-braille"></i></a>
             <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
             <a href="#"><i class="fa-regular fa-bell"></i></a>
-            <a href="#"><div class="online"><img src="images/habib-pro.jpg" class="profile-pic"></div></a>
+            <a href="#"><div class="online" onclick="settingMenuToggle()"><img src="images/habib-pro.jpg" class="profile-pic"></div></a>
         </div>
     </nav>
+    <!-------------------------------------- Setting menu ----------------------------------------->
+    <div class="setting-menu">
+        <div class="setting-menu-inner">
+            <div class="profile">
+                <a href="Profile.html"><img src="images/habib-pro.jpg" class="profile-pic"></a>
+                <div class="name-time">
+                    <h3>Ahasan Habib</h3>
+                    <a href="Profile.html">See your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="profile">
+                <img src="images/feedback.png" class="profile-pic">
+                <div class="name-time">
+                    <h3>give Feedback</h3>
+                    <a href="#">Help us to improve the new Design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" alt="" class="settings-icon">
+                <a href="#">Setting & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" alt="" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" alt="" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" alt="" class="settings-icon">
+                <a href="#">Logout <img src="images/arrow.png" alt="" width="10px"></a>
+            </div>
+        </div>
+    </div>
     <!-- ---------------------------Profile page ---------------------------->
     <div class="profile-container">
         <img src="images/cover.png" alt="" class="cover-img">
@@ -332,5 +370,7 @@
             </div>
         </div>
     </div>
+    <footer>Copyright@2023 -Easy Tutorials YouTube Channel</footer>
+    <script src="script.js"></script>
 </body>
 </html>

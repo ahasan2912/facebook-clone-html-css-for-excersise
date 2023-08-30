@@ -273,6 +273,7 @@ nav{
     background: #efefef;
     padding: 13px;
     border-radius: 20px;
+    margin-left: 15px;
 }
 ::placeholder{
     font-size: 15px;
@@ -282,7 +283,7 @@ nav{
 }
 .activity{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-around;
 }
 .activity a{
@@ -522,8 +523,9 @@ footer{
     margin: 20px 0;
     color: #5a5454;
 }
+/* ################################## Setting ##################################### */
 .setting-menu{
-    position: absolute;
+    position: fixed;
     width: 90%;
     max-width: 345px;
     background: #fff;
@@ -656,6 +658,7 @@ footer{
 }
 .last-child a i{
     font-size: 20px;
+    color: #626262;
 }
 .last-child:hover{
     background: #aca6a6;
@@ -670,8 +673,6 @@ footer{
 /* ############################## info-col ################################# */
 .info-col{
     flex-basis: 40%;
-    /* position: sticky;
-    top: 0; */
 }
 .main-info-col{
     background: #fff;

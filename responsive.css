@@ -1,0 +1,80 @@
+/* -------------------------------- Media query for Home Page ------------------------------ */
+@media (max-width: 900px) {
+    .left-sidebar{
+        display: none;
+    }
+    .right-sidebar{
+        display: none;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .search-box{
+        display: none;
+    }
+    .middle-nav{
+        display: none;
+    }
+    .logo{
+        width: 38px;
+        margin-left: 20px;
+    }
+    .right-nav a{
+        margin-left: 40px;
+    }
+    .activity{
+        flex-direction: column;   
+    }
+    .activity a{
+        margin-bottom: 5px;
+    }
+    .main-sidebar{
+        flex-basis: 100%;
+    }
+    .profile-pic{
+        width: 40px;
+        height: 40px;
+    }
+    .story img{
+        width: 30px;
+    }
+    .story p{
+        font-size: 11px;
+    }
+    .container{
+        padding: 5px 2%;
+    }
+    .main-container{
+        padding: 10px;
+    }
+    /* ------------------------ Profile page ----------------- */
+    .profile-container{
+        padding: 20px 5%;
+    }
+    .last-child{
+        margin-bottom: 15px;
+    }
+    .post-info{
+        flex-direction: column;
+    }
+    .info-col{
+        flex-basis: 100%;
+    }
+    .post-col{
+        padding: 0;
+        margin: 0;
+    }
+    .bio-btn{
+        padding: 10px 30px;
+    }
+}
+/* #################### Small Device ###################### */
+@media (max-width: 320px){
+    .right-nav a{
+        margin-left: 30px;
+    }
+    .reaction-left{
+        display: flex;
+        align-items: flex-end;
+    }
+}

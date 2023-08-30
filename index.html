@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Facebook Clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <nav>
@@ -18,7 +19,7 @@
             </div>
         </div>
         <div class="middle-nav">
-            <a href="#"><i class="fa-solid fa-house"></i></a>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
             <a href="#"><i class="fa-solid fa-computer"></i></a>
             <a href="#"><i class="fa-solid fa-shop"></i></a>
             <a href="#"><i class="fa-solid fa-user-group"></i></a>
@@ -72,7 +73,7 @@
         <!-- -------------------------------- Left-Sidebar ----------------------------------->
        <div class="left-sidebar">
             <div class="imp-link">
-                <a href="#"><img src="images/habib-pro.jpg" class="profile-pic">Ahasan Habib</a>
+                <a href="#"><img src="images/habib-pro.jpg" class="profile-pic" onclick="settingMenuToggle()">Ahasan Habib</a>
                 <a href="#"><i class="fa-solid fa-user-group"></i><p>Friends</p></a>
                 <a href="#"><i class="fa-regular fa-clock"></i><p>Memories</p></a>
                 <a href="#"><i class="fa-solid fa-bookmark"></i><p>Saved</p></a>
@@ -186,7 +187,8 @@
                             <a href="#"><img src="images/share.png" alt="">20</a>
                         </div>
                         <div class="reaction-left">
-                            <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                            <img src="images/profile-pic.png">
+                            <i class="fa-solid fa-caret-down"></i>
                         </div>
                     </div>
                 </div>
